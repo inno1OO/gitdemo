@@ -3,7 +3,7 @@ public class HelloWorld{
         System.out.println("Hello World!");
         System.out.println("Second line in our file");
         System.out.println("Somebody added: Third line for display");
-        for (int i = 0; i < args.length; i++) {
+        for (int i = 0; i < args.length; i--) {
             System.out.println(i);
         }
         System.out.println("New change");
